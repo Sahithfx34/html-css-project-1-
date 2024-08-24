@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(202, 222, 248);
+    font-family: "Roboto", sans-serif;
+}
+
+body,html{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    background-color: rgb(24, 24, 24);
+    width: 400px;
+    position: relative;
+}
+.signup h4{
+    font-size: 30px ;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup>div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+hr{
+    display: inline-block;
+    width: 33%;
+    color: gray;
+    align-items: center;
+}
+.division-log span{
+    padding: 0 10px;
+}
+
+.division-a{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form input{
+    background-color: rgb(24, 24, 24);
+    border:1px solid gray;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+form button{
+    padding: 10px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+.division-a a{
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+}
+.division-a a:nth-of-type(1){
+    background-color: #3B5998;
+}
+.division-a a:nth-of-type(2){
+    background-color: #b01500;
+}
+.division-a a:nth-of-type(3){
+    background-color: #1DA1F2;
+}
